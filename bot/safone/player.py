@@ -18,7 +18,7 @@ STREAM = {6}
 VIDEO_CALL = {}
 
 # PyTgCalls Client
-group_call_factory = GroupCallFactory(User, GroupCallFactory.MTPROTO_CLIENT_TYPE.PYROGRAM)
+group_call_factory = GroupCallFactory(GroupCallFactory.MTPROTO_CLIENT_TYPE.PYROGRAM)
 
 @Client.on_message(filters.command(["stream", f"stream@{USERNAME}"]) & filters.user(ADMINS) & (filters.chat(CHAT_ID) | filters.private))
 async def stream(client, m: Message):
