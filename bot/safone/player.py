@@ -143,7 +143,7 @@ async def not_chat(_, m: Message):
             [
                 InlineKeyboardButton("CHANNEL", url="https://t.me/SLBotsOfficial"),
                 InlineKeyboardButton("SUPPORT", url="https://t.me/trtechguide"),
-            ]
+            ],
             [
                 InlineKeyboardButton("Create Your Own Bot", url="https://github.com/TR-TECH-GUIDE/VideoPlayerBot"),
             ]
