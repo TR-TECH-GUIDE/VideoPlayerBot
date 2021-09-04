@@ -144,6 +144,9 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton("CHANNEL", url="https://t.me/SLBotsOfficial"),
                 InlineKeyboardButton("SUPPORT", url="https://t.me/trtechguide"),
             ]
+            [
+                InlineKeyboardButton("Create Your Own Bot", url="https://github.com/TR-TECH-GUIDE/VideoPlayerBot"),
+            ]
          ]
-    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂ but you can stream using your own bot, click on create your own to create bot.**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
