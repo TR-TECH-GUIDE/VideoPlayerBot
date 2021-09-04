@@ -16,10 +16,8 @@ if not os.path.isdir("./downloads"):
     os.makedirs("./downloads")
 
 Bot.start()
-User.start()
 print("\nVideo Player Bot Started, Join @SLBotsOfficial!")
 
 idle()
 Bot.stop()
-User.stop()
 print("\nVideo Player Bot Stopped, Join @SLBotsOfficial!")
