@@ -4,7 +4,6 @@ import ffmpeg
 import asyncio
 from asyncio import sleep
 from config import Config
-from bot.safone.nopm import User
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
