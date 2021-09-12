@@ -34,7 +34,6 @@ if not os.path.isdir("./downloads"):
     os.makedirs("./downloads")
 
 Bot.start()
-User.start()
 print("\n[INFO] - STARTED VIDEO PLAYER BOT, JOIN @trtechguide !")
 
 idle()
