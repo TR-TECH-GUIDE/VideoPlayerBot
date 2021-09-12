@@ -28,16 +28,12 @@
         "description": "Your Telegram Bot Token, get it from @Botfather",
         "required": true
       },
-      "BOT_USERNAME": {
-        "description": "Your Telegram Bot Username without @, get it from @Botfather",
-        "required": true
-      },
       "SESSION_STRING": {
-        "description": "Pyrogram Session String of User Account, get it from https://replit.com/@PDTharukRenuja/Pyrogram-String-Session",
+        "description": "Pyrogram Session String of User Account, get it from @StringSessiongenslbot",
         "required": true
       },
       "CHAT_ID": {
-        "description": "ID of your Channel or Group where the bot will works or stream videos",
+        "description": "ID of your Channel or Group where the bot will works or stream videos (for multiple chats seperated by space)",
         "required": true
       },
       "AUTH_USERS": {
@@ -46,7 +42,7 @@
       },
       "REPLY_MESSAGE": {
         "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
-        "value": "Hello Sir, I'm a bot to stream videos on telegram voice chat, not having time to chat with you!",
+        "value": "Hello Sir, I'm a bot to stream videos on telegram voice chat, not having time to chat with you 😂!",
         "required": false
       }
     },
