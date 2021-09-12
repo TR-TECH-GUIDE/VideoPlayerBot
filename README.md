@@ -91,6 +91,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 ## Credits
 
-- [Me](https://github.com/TR-TECH-GUIDE) for [Created ALl Repo](https://github.com/TR-TECH-GUIDE/VideoPlayerBot) 😬
+- [Me](https://github.com/TR-TECH-GUIDE) for [Created All Repo](https://github.com/TR-TECH-GUIDE/VideoPlayerBot) 😬
 - [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram) ❤️
 - And Thanks To All [Contributors](https://github.com/TR-TECH-GUIDE/VideoPlayerBot/graphs/contributors)! ❤️
